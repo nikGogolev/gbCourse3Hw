@@ -1,0 +1,14 @@
+/* Общие стили */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.buttons{
+	margin: 100px auto 0;
+	max-width: 300px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}

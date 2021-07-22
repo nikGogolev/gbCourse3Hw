@@ -21,7 +21,10 @@
 
     <script>
         let buttons = document.querySelectorAll('button');
-		buttons.forEach(button => button.addEventListener('click', event => console.log(event.target.dataset.value)));
+		buttons.forEach(button => button.addEventListener('click', event => {
+		console.log(event.target.dataset.id)
+		console.log(event.target.dataset.value);
+		}));
     </script>
 </body>
 </html>

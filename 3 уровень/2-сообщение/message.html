@@ -30,7 +30,7 @@
 		let message = document.querySelector('.message');
 		let audioElement = new Audio('notification.mp3');
 		
-		button.addEventListener('click', function(event){
+		button.addEventListener('click', function(){
 			message.style.transform = `translateY(-${message.clientHeight+20}px)`;
 			audioElement.play();
 		});
